@@ -16,7 +16,7 @@ trading_days = st.sidebar.number_input("Trading days per year", min_value=200, m
 num_pts = st.sidebar.slider("Frontier points", 20, 150, 60, 5)
 top_hold = st.sidebar.slider("Top holdings", 5, 30, 12, 1)
 
-st.title("Mean–Variance Portfolio Lab (Markowitz)")
+st.title("Mean–Variance Portfolio Lab (Markowitz)-Developed by Prof.Shalini Velappan, IIM Trichy")
 st.caption("Upload adjusted closing prices (columns=tickers, index=Date).")
 
 @st.cache_data(show_spinner=True)
